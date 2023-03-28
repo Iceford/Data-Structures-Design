@@ -1,0 +1,1105 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “getchar”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                },
+                "region": {
+                  "startLine": 189,
+                  "startColumn": 5,
+                  "endLine": 189,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Boolean_Retrieval",
+                  "decoratedName": "?Boolean_Retrieval@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "使用未初始化的内存“c”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                },
+                "region": {
+                  "startLine": 294,
+                  "startColumn": 12,
+                  "endLine": 294,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "compress",
+                  "decoratedName": "?compress@@YAHPBD0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 268,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 269,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "未初始化“c”"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 270,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 270,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 270,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 270,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 270,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 271,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 271,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 271,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 273,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 274,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 275,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“ifp==0”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 280,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 281,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“ofp==0”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 286,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 287,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此循环(假定“!feof(ifp)”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 293,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 294,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 296,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 294,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "已使用“c”，但可能尚未将其初始化"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "正在从 \"header\" 读取无效数据。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                },
+                "region": {
+                  "startLine": 604,
+                  "startColumn": 5,
+                  "endLine": 604,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "unpack",
+                  "decoratedName": "?unpack@@YAHPBD0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 519,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 519,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 520,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 521,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 522,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 522,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 522,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 522,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 522,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 522,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 522,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 523,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 524,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 525,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 526,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 526,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 527,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 528,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 529,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“ifp==0”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 535,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“output_folder”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 541,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 544,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 545,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“ofp==0”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 550,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 551,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 552,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 553,
+                            "startColumn": 56
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 554,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 555,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 556,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 557,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 558,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 559,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 561,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 561,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此循环(假定“i<n”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 591,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 591,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此循环(假定“i<n”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 604,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "“header”是对“strlen”的输入(在 d:\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\string.h:215 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+                          },
+                          "region": {
+                            "startLine": 604,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "从“header[-1]”中读取无效(可读范围是 0 到 511)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/Programming_development/Data_structure/202002020213-黄荣权/Problem/Problem.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "43a80d3247262682988ca14db577d3a497403c9c61aff780a916b244772640b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming_development/data_structure/202002020213-黄荣权/problem/linkedlist.h"
+          },
+          "hashes": {
+            "sha-256": "3c8b0d9731f6bc1a47f17d7a7c2cce7096dd988476c50e5b640c9486b17e12c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming_development/data_structure/202002020213-黄荣权/problem/function.h"
+          },
+          "hashes": {
+            "sha-256": "7b0ea5a910936b4ae2fd8344a3468adbb8153a920e5f6eaabb31e052cfece2b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming_development/data_structure/202002020213-黄荣权/problem/variable.h"
+          },
+          "hashes": {
+            "sha-256": "18f5c7f7d8734bcecbe3e769b89d22500b49dadd61f75be895be04ff0c73b840"
+          }
+        }
+      ]
+    }
+  ]
+}

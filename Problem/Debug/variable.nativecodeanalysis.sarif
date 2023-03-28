@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/programming_development/data_structure/202002020213-黄荣权/problem/variable.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "1661686fa775e32828db7a803f8bad4eea88b13a8adc85e47928b3c068667901"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming_development/data_structure/202002020213-黄荣权/problem/linkedlist.h"
+          },
+          "hashes": {
+            "sha-256": "3c8b0d9731f6bc1a47f17d7a7c2cce7096dd988476c50e5b640c9486b17e12c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming_development/data_structure/202002020213-黄荣权/problem/variable.h"
+          },
+          "hashes": {
+            "sha-256": "18f5c7f7d8734bcecbe3e769b89d22500b49dadd61f75be895be04ff0c73b840"
+          }
+        }
+      ]
+    }
+  ]
+}

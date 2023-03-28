@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Programming_development\Data_structure\202002020213-黄荣权\Problem\</FILEPATH>
+      <FILENAME>LinkedList.cpp</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>取消对 NULL 指针“cur”的引用。</DESCRIPTION>
+    <FUNCTION>MyLinkedList::get</FUNCTION>
+    <DECORATED>?get@MyLinkedList@@QAEHH@Z</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\Programming_development\Data_structure\202002020213-黄荣权\Problem\</FILEPATH>
+        <FILENAME>LinkedList.cpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Programming_development\Data_structure\202002020213-黄荣权\Problem\</FILEPATH>
+        <FILENAME>LinkedList.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Programming_development\Data_structure\202002020213-黄荣权\Problem\</FILEPATH>
+        <FILENAME>LinkedList.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>34</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“cur”可能为 NULL (跳过此循环)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Programming_development\Data_structure\202002020213-黄荣权\Problem\</FILEPATH>
+        <FILENAME>LinkedList.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已取消对“cur”的引用，但可能仍为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
