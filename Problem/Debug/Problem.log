@@ -1,14 +1,9 @@
 ﻿  LinkedList.cpp
   Problem.cpp
-D:\Programming_development\Data_structure\202002020213-黄荣权\Problem\Problem.cpp(20,23): warning C4018: “<”: 有符号/无符号不匹配
-D:\Programming_development\Data_structure\202002020213-黄荣权\Problem\Problem.cpp(22,27): warning C4018: “<”: 有符号/无符号不匹配
-D:\Programming_development\Data_structure\202002020213-黄荣权\Problem\Problem.cpp(140,23): warning C4018: “<”: 有符号/无符号不匹配
-D:\Programming_development\Data_structure\202002020213-黄荣权\Problem\Problem.cpp(473,35): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+D:\Programming_development\Data_structure\Data Structures Coursework\Problem\Problem.cpp(20,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\Programming_development\Data_structure\Data Structures Coursework\Problem\Problem.cpp(22,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\Programming_development\Data_structure\Data Structures Coursework\Problem\Problem.cpp(140,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\Programming_development\Data_structure\Data Structures Coursework\Problem\Problem.cpp(473,35): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
   variable.cpp
-  正在运行 C/C++ 代码分析...
   正在生成代码...
-  Problem.vcxproj -> D:\Programming_development\Data_structure\202002020213-黄荣权\Problem\Debug\Problem.exe
-D:\Programming_development\Data_structure\202002020213-黄荣权\Problem\LinkedList.cpp(42): warning C6011: 取消对 NULL 指针“cur”的引用。
-D:\Programming_development\Data_structure\202002020213-黄荣权\Problem\Problem.cpp(189): warning C6031: 返回值被忽略: “getchar”。
-D:\Programming_development\Data_structure\202002020213-黄荣权\Problem\Problem.cpp(294): warning C6001: 使用未初始化的内存“c”。
-D:\Programming_development\Data_structure\202002020213-黄荣权\Problem\Problem.cpp(604): warning C6385: 正在从 "header" 读取无效数据。
+  Problem.vcxproj -> D:\Programming_development\Data_structure\Data Structures Coursework\Problem\Debug\Problem.exe
